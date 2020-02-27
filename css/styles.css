@@ -86,4 +86,8 @@ ul {
     /* width: 100vh; */
     /* background-size: cover; */
   }
-  
+  .About{
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-size: 25px;
+  }
