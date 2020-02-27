@@ -46,4 +46,44 @@ ul {
     /* position: fixed; */
     /* top: 0; */
   }
+  .vlob{
+      text-align: center;
+      font-family: 'Dancing Script';
+  }
+  #men{
+      float: left;
+      padding-left: 60px;
+      background-image: url("https://bit.ly/3ccO209");
+      background-size: cover;
+      height: fit-content;
+  }
+  #br{
+    border-radius: 30%;
+  }
+  #row img:hover{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-right: 15px;
+    margin-left: 15px;
+    /* margin-top: 15px; */
+    /* display: block; */
+    /* position: absolute; */
+    right: 0px;
+    width: 300px;
+    border: 10px solid rgb(12, 12, 11);
+    padding: 10px;
+    /* opacity: 0.5 color black; */
+    padding: 10px;
+    /* box-sizing: border-box; */
+    /* border-spacing: 20px; */
+    /* align-items: flex-start; */
+  }
+  #row{
+    background-image: url("https://bit.ly/2T2qvHM");
+    font-size: 30px;
+    /* background-repeat: no-repeat; */
+    /* height: 100px; */
+    /* width: 100vh; */
+    /* background-size: cover; */
+  }
   
