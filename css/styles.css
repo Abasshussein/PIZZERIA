@@ -1,4 +1,49 @@
-.head{
+.head h1{
     font-family: 'Dancing Script';
     text-align: center;
+    font-size: 50px;
+    text-decoration: white;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.616)), url("https://bit.ly/2I0A4kj");
+    background-size: cover;
+    height: 100vh;
+    /* color: white; */
+    /* font-weight: bolder */
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /* position: fixed; */
+    /* top: 0; */
+    font-family: 'Dancing Script';
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* position: fixed; */
+    /* top: 0; */
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    /* position: fixed; */
+  }
+  ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    /* position: fixed; */
+    /* top: 0; */
+  }
+  
