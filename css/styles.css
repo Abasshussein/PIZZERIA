@@ -87,7 +87,35 @@ ul {
     /* background-size: cover; */
   }
   .About{
-    font-family: 'Dancing Script';
+    font-family: 'Rajdhani';
     text-align: center;
     font-size: 25px;
   }
+  .dri{
+    /* background-image: url("https://bit.ly/386M1PV"); */
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.616)), url("http://www.basepizzeria.com/wp-content/uploads/2016/04/Patio_16_2.jpg");
+    height: 50vh;
+    background-size: cover;
+    border-radius: 60px;
+    text-decoration: white;
+    color: white;
+    margin-bottom: 50px;
+    padding-top: 180px;
+    font-size: 30px;
+    /* margin-left: 60px; */
+    /* text-decoration: red; */
+    /* color: red; */
+  }
+  .for{
+    /* font-size: 40px; */
+    /* width: 60px; */
+    text-decoration: white;
+    color: white;
+    
+
+  }
+  .dri h4{
+    font-size: 30px;
+  }
+  
