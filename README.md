@@ -16,4 +16,9 @@
 - Then you can select the choice of your pizza and purchase it.
 - After that we take your order and price will display.
 - After the whole process we do delivery.
+## Project's Live link
+- Github link:https://abasshussein.github.io/PIZZERIA/
+## Contact Information
+- Email:abasshussein03@gmail.com
+- Tell:+254798017031
 ## 
