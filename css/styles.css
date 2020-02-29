@@ -66,6 +66,8 @@ ul {
     /* flex-wrap: wrap; */
     margin-right: 15px;
     margin-left: 15px;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
     /* margin-top: 15px; */
     /* display: block; */
     /* position: absolute; */
@@ -88,7 +90,7 @@ ul {
     /* background-size: cover; */
   }
   .About{
-    font-family: 'Rajdhani';
+    font-family: 'Simonetta';
     text-align: center;
     font-size: 25px;
   }
@@ -96,7 +98,7 @@ ul {
     /* background-image: url("https://bit.ly/386M1PV"); */
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.616)), url("http://www.basepizzeria.com/wp-content/uploads/2016/04/Patio_16_2.jpg");
-    height: 50vh;
+    height: 60vh;
     background-size: cover;
     border-radius: 60px;
     text-decoration: white;
@@ -122,5 +124,43 @@ ul {
   .order{
     font-size: 30px;
     font-family: 'Simonetta';
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .edit:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
   }
   
