@@ -23,4 +23,3 @@
 - Tell:+254798017031
 ## Licence and Copyright
 - MIT License Copyright (c) 2020
-- [MIT Licence]Abasshussein
