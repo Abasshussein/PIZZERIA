@@ -7,6 +7,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.616)), url("https://bit.ly/2I0A4kj");
     background-size: cover;
     height: 100vh;
+    padding-top: 70px;
     /* color: white; */
     /* font-weight: bolder */
 }
@@ -117,5 +118,9 @@ ul {
   }
   .dri h4{
     font-size: 30px;
+  }
+  .order{
+    font-size: 30px;
+    font-family: 'Simonetta';
   }
   

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Simonetta&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -51,20 +52,92 @@
         <div class="jumbotron">
             <div id="orders"></div>
             <div class="order">
-                <h4>ORDERS</h4>
-                <p></p>
-
+                <h4>ORDERS</h4><br>
+                <p>Pick your favourite pizza taste:</p>
+                <!-- <input list="pizza taste" name="pizza taste"> -->
+                <form action="/action_page.php" method="get">
+                    <input list="browsers" name="pizza taste">
+                    <datalist id="browsers">
+                        <option value="Veg Tikka">
+                        <option value="Chicken Tikka">
+                        <option value="Peri-Peri-Chicken">
+                        <option value="BBQ Steak">
+                        <option value="Boerewors">
+                        <option value="Hawaiian">
+                        <option value="Chicken and Mushroom">
+                    </datalist>
+                    <input type="submit">
+                </form>
+                <div class="you">
+                    <p>Choose your prefered size:</p>
+                    <form>
+                        <input list="Abass" name="preferd size">
+                        <datalist id="Abass">
+                            <option value="Regular">
+                            <option value="Medium">
+                            <option value="Large">
+                        </datalist>
+                        <input type="submit">
+                    </form>
+                </div>
+                <div class="crush">
+                    <p>Choose your favourite crust:</p>
+                    <form>
+                        <input list="dado" name="favourite crust">
+                        <datalist id="dado">
+                            <option value="Thin Crust @150">
+                            <option value="Thick crust @200">
+                            <option value="FlatBread Crust @250">
+                            <option value="Custom Crust @280">
+                        </datalist>
+                        <input type="submit">
+                    </form>
+                </div>
+                <div class="unknown">
+                    <p>Choose your favourite toppings</p>
+                    <form>
+                        <input list="break" name="favourite toppings">
+                        <datalist id="break">
+                            <option value="Tomato @70">
+                            <option value="Onions @60">
+                            <option value="Mushrooms @100">
+                            <option value="Olives @110">
+                            <option value="Pineapple @150">
+                            <option value="Beef Peperoni @180">
+                            <option value="PeriPeri Chicken @200">
+                        </datalist>
+                        <input type="submit">
+                    </form>
+                </div>
+                <div class="foolus">
+                    <p>Number of pizzas:</p>
+                    <form>
+                        <input list="undo" name="Number of pizza">
+                        <datalist id="undo">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                        </datalist>
+                        <input type="submit">
+                    </form>
+                </div>
             </div>
         </div>
 
         <div class="dri">
+            <div id="contact"></div>
             <h4>CONTACT</h4>
             <footer>
-               <!-- <p>Email:abasshussein03@gmail.com</p> -->
-               <!-- <p>Contact Informtion :<a href="abasshussein03@gmail.com">abasshussein03@gmail.com</a></p> -->
-               <p>Contact information: <a href="mailto:abasshussein03@gmail.com">abasshussein03@gmail.com</a>.</p>
-               <p>Phone: <a href="tel:+254798017031">Call me at +25-479-8017-031</a></p>
-               <p><em>&copy; 2020 All Rights Reserved</em></p>
+                <p>Contact information: <a href="mailto:abasshussein03@gmail.com">abasshussein03@gmail.com</a></p>
+                <p>Phone: <a href="tel:+254798017031">Call me at +25-479-8017-031</a></p>
+                <p><em>&copy; 2020 All Rights Reserved</em></p>
             </footer>
         </div>
 
