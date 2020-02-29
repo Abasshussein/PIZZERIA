@@ -163,4 +163,8 @@ ul {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
   }
+  .prep{
+    text-align: center;
+    /* margin-bottom: 50px; */
+  }
   
