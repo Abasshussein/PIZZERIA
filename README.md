@@ -9,7 +9,7 @@
 ## Technologies Used:
 - HTML-Used to come up with the structure of the webpage.
 - CSS-Used in styling of the webpage.
--JAVASCRIPT-Used to make the webpage interactive and also to add dyamics.
+- JAVASCRIPT-Used to make the webpage interactive and also to add dyamics.
 ## BDD
 - On the webpage there is a navigation bar that shows what the webpage contains.
 - On clicking them you will be taken to specific part of the webpage that youve just selected.
