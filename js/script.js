@@ -1,24 +1,13 @@
-$(document).ready(function () {
-    $("submit").click(function (event) {
-        event.preventDefault();
-        var taste = parseInt($("#flavours :selected").val())
-        var size = parseInt($("#sizes :selected").val())
-        var crust = parseInt($("#crusts :selected").val())
-        var toppings = parseInt($("#toppings :selected").val())
-        var number = parseInt($("#number").val())
-
-        var total = taste + size + crust + toppings;
-        var grandTotal = total * number;
-
-        $(".deliver").click(function () {
-            var fields = prompt("Enter your address")
-            prompt("Enter your name")
-            prompt("Enter your location")
-            alert("Your order will delivered" + areas)
-            alert("Delivery cost is 200$")
-        });
-        $(".deliver").click(function () {
-            alert("Pick your order in our nearest shop")
-        });
-    });
-})
+function veil() {
+var tas= parseInt(document.getElementById("browsers").value);
+var s = parseInt(document.getElementById("Abass").value);
+var c = parseInt(document.getElementById("dado").value);
+var top = parseInt(document.getElementById("break").value);
+var num = parseInt(document.getElementById("undo").value);
+var totalAmount = num*(tas + s + c + top);
+alert(" The Total Amount is kshs "  +  totalAmount  +  ""  +  " Thank you for your order welcome again.");
+prompt("enter your location")
+alert("You delivery fee is 150/=")
+alert("You order will be delivered shortly")
+alert("Continue shoppping with us each and every time .")
+}

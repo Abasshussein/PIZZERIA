@@ -57,79 +57,84 @@
             <div id="orders"></div>
             <div class="order">
                 <h4>ORDERS</h4><br>
-                <p>Pick your favourite pizza taste:</p>
+                <div id="taste">
+                    <p>Pick your favourite pizza taste:</p>
+                </div>
                 <!-- <input list="pizza taste" name="pizza taste"> -->
                 <!-- <form action="/action_page.php" method="get"> -->
-                <input list="browsers" name="pizza taste">
-                <datalist id="browsers">
-                    <option value="Veg Tikka">
-                    <option value="Chicken Tikka">
-                    <option value="Peri-Peri-Chicken">
-                    <option value="BBQ Steak">
-                    <option value="Boerewors">
-                    <option value="Hawaiian">
-                    <option value="Chicken and Mushroom">
-                </datalist>
+                <select id="browsers">
+                    <option value="100">Veg Tikka @ Ksh100</option>
+                    <option value="100">Chicken Tikka @ Ksh100</option>
+                    <option value="120">Peri-Peri-Chicken @ Ksh120</option>
+                    <option value="120">BBQ Steak @ Ksh120</option>
+                    <option value="150">Boerewors @ Ksh150</option>
+                    <option value="150">Hawaiian @ Ksh150</option>
+                    <option value="180">Chicken and Mushroom @ Ksh180</option>
+                </select>
                 <!-- <input type="submit"> -->
                 </form>
                 <div class="you">
-                    <p>Choose your prefered size:</p>
+                    <div id="size">
+                        <p>Choose your prefered size:</p>
+                    </div>
                     <form>
-                        <input list="Abass" name="preferd size">
-                        <datalist id="Abass">
-                            <option value="Regular">
-                            <option value="Medium">
-                            <option value="Large">
-                        </datalist>
+                        <select id="Abass">
+                            <option value="400">Regular @ Ksh 400</option>
+                            <option value="600">Medium @ Ksh 600</option>
+                            <option value="1200">Large @ Ksh 1200</option>
+                        </select>
                         <!-- <input type="submit"> -->
                     </form>
                 </div>
                 <div class="crush">
-                    <p>Choose your favourite crust:</p>
+                    <div id="crust">
+                        <p>Choose your favourite crust:</p>
+                    </div>
                     <form>
-                        <input list="dado" name="favourite crust">
-                        <datalist id="dado">
-                            <option value="Thin Crust @150">
-                            <option value="Thick crust @200">
-                            <option value="FlatBread Crust @250">
-                            <option value="Custom Crust @280">
-                        </datalist>
+                        <select id="dado">
+                            <option value="150">Thin Crust @150</option>
+                            <option value="200">Thick crust @200</option>
+                            <option value="250">FlatBread Crust @250</option>
+                            <option value="280">Custom Crust @280</option>
+                        </select>
                         <!-- <input type="submit"> -->
                     </form>
                 </div>
                 <div class="unknown">
-                    <p>Choose your favourite toppings</p>
+                    <div id="toppings">
+                        <p>Choose your favourite toppings</p>
+                    </div>
                     <form>
-                        <input list="break" name="favourite toppings">
-                        <datalist id="break">
-                            <option value="Tomato @70">
-                            <option value="Onions @60">
-                            <option value="Mushrooms @100">
-                            <option value="Olives @110">
-                            <option value="Pineapple @150">
-                            <option value="Beef Peperoni @180">
-                            <option value="PeriPeri Chicken @200">
-                        </datalist>
+                        <select id="break">
+                            <option value="70">Tomato @70</option>
+                            <option value="60">Onions @60</option>
+                            <option value="100">Mushrooms @100</option>
+                            <option value="110">Olives @110</option>
+                            <option value="150">Pineapple @150</option>
+                            <option value="180">Beef Peperoni @180</option>
+                            <option value="200">PeriPeri Chicken @200</option>
+                        </select>
                         <!-- <input type="submit"> -->
                     </form>
                 </div>
                 <div class="foolus">
-                    <p>Number of pizzas:</p>
+                    <div id="pizzas">
+                        <p>Number of pizzas:</p>
+                    </div>
                     <form>
-                        <input list="undo" name="Number of pizza">
-                        <datalist id="undo">
-                            <option value="1">
-                            <option value="2">
-                            <option value="3">
-                            <option value="4">
-                            <option value="5">
-                            <option value="6">
-                            <option value="7">
-                            <option value="8">
-                            <option value="9">
-                            <option value="10">
-                        </datalist>
-                        <input type="submit">
+                        <select id="undo">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select><br><br>
+                        <button onclick="veil()" type="button">Submit</button>
                     </form>
                 </div>
             </div>
